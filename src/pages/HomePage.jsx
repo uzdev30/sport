@@ -1,30 +1,30 @@
+import Footer from "../components/common/footer";
 import React from "react";
-import Button from "../../components/core/button";
-import Fix from "../../components/core/fix";
-import Carousel from "../../components/common/carousel";
-import Book from "../../components/common/book";
+import Button from "../components/core/button";
+import Fix from "../components/core/fix";
+import Carousel from "../components/common/carousel";
+import Book from "../components/common/book";
 //images
 
-import bg from "../../assets/images/bg.jpeg";
-import tennis from "../../assets/images/tennis.png";
-import player from "../../assets/images/player.png";
-import court from "../../assets/images/court.png";
-import peoples from "../../assets/images/peoples.png";
-import nova from "../../assets/images/nova.png";
-import womenvs from "../../assets/images/womenvs.png";
-import women from "../../assets/images/women.png";
-import star from "../../assets/images/start.png";
-import bluestar from "../../assets/images/bluestar.png";
-import blackstar from "../../assets/images/blackstar.png";
-import bag from "../../assets/images/bag.png";
+import bg from "../assets/images/bg.jpeg";
+import tennis from "../assets/images/tennis.png";
+import player from "../assets/images/player.png";
+import court from "../assets/images/court.png";
+import peoples from "../assets/images/peoples.png";
+import nova from "../assets/images/nova.png";
+import womenvs from "../assets/images/womenvs.png";
+import women from "../assets/images/women.png";
+import star from "../assets/images/start.png";
+import bluestar from "../assets/images/bluestar.png";
+import blackstar from "../assets/images/blackstar.png";
+import bag from "../assets/images/bag.png";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
-import first from "../../assets//images/player3.png";
-import second from "../../assets//images/tenplayer.png";
-import third from "../../assets//images/player5.svg";
-import fourth from "../../assets//images/player4.svg";
-import fifth from "../../assets//images/player10.png";
-import sixth from "../../assets//images/playeten.png";
-import Footer from "../../components/common/footer";
+import first from "../assets//images/player3.png";
+import second from "../assets//images/tenplayer.png";
+import third from "../assets//images/player5.svg";
+import fourth from "../assets//images/player4.svg";
+import fifth from "../assets//images/player10.png";
+import sixth from "../assets//images/playeten.png";
 
 function HomePage() {
   return (
@@ -128,7 +128,7 @@ function HomePage() {
         </div>
       </div>
       <Book />
-      <div className=" pt-10">
+      <div className=" pt-10 pb-60">
         <div className=" relative  text-white flex flex-col items-center">
           <Fix text={"Location "} clas={" text-[140px] font-eigFont"} />
         </div>
